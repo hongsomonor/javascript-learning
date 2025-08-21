@@ -25,7 +25,7 @@ Hello()
 // Multi = (a,b) => {
 //     return a + b;
 // }
-Multi = (a,b) => a + b;
+const Multi = (a,b) => a + b;
 console.log(`A + B : ${Multi(2,3)}`);
 
 test = r =>  r + 10;
